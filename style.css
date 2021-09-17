@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Glory:wght@100&display=swap');
+#logo {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+ 
+}
+
+body{
+    
+    background-color: rgb(255, 255, 255);
+    
+}
+
+img{
+    width: 100%;
+}
+a { 
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+ }
+
+
+#gamesBar{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(198, 201, 6, 0.315);
+    color: rgb(0, 0, 0);
+    margin: auto;
+}
+.ef{
+    border: none;
+    color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.ef1{
+    background:rgb(198, 201, 6);
+   
+}
+
+.ef1:hover{
+    background: rgba(0, 0, 0, 0);
+    color: rgb(198, 201, 6);
+    box-shadow: inset 0 0 0 3px rgb(198, 201, 6);
+
+}
+.general{
+    width: 100%;
+    background-color: rgba(198, 201, 6, 0.11);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Architects Daughter', cursive
+ 
+}
+#textIndex{
+    text-align: center;
+}
+.gamesT{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+        
+}
+#nameG{
+    background-color: rgba(198, 201, 6, 0.315);
+    width: 100%;
+    text-align: center;
+
+    
+}
+#gamesG{
+    width: 1000px;
+    background: rgb(198, 201, 6);
+    text-align: center;
+    
+
+}
+#gamesI{
+    width: 1000px;
+    
+}
+.gameInfo{
+    display: block;
+    width: 1000px;
+    font-family: 'Architects Daughter', cursive;
+    
+}
+.article{
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    
+    
+}
+#refe:hover{
+    color:rgb(198, 201, 6) ;
+}
+
+.bottom {
+    
+    background-color: rgba(198, 201, 6, 0.315);
+    font-size: 20px;
+}       
+.listB{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.byE{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.aBottom {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    font-family: 'Architects Daughter', cursive;
+        
+}
+#m1Bottom:hover{
+    color:rgb(198, 201, 6) ;
+
+}
+#m2Bottom:hover{
+    color:rgb(198, 201, 6) ;
+
+}
+#m3Bottom:hover{
+    color:rgb(198, 201, 6) ;
+
+}
+
+.hBottom{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+form{
+    font-size: 14px;
+    background-color: rgba(198, 201, 6, 0.11);
+    max-width: 500px;
+    margin: 60px auto 60px auto;
+    padding: 0 10px 10px 10px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(198, 201, 6);
+}
+
+#hC {
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    
+}
+
+input, textarea{
+    width: 470px;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: rgb(198, 201, 6);
+}
+
+.submit input{
+    height: 35px;
+    width: 120px;
+    font-size: 14px;
+       
+}
+
+.submit input:hover{
+    background: rgba(0, 0, 0, 0);
+}
+
+textarea{
+    height: 120px;
+    line-height: 20px;
+}
